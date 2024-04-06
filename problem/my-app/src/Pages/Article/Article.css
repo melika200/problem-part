@@ -1,0 +1,35 @@
+
+.articlecard-container{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px , rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    position: sticky;
+    top: 40px;
+    padding: 20px;
+}
+.card-header{
+    width: 85%;
+    position: relative;
+    top: -60px;
+    margin: auto;
+    text-align: center;
+}
+.card-header img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card-header h4{
+    margin-top: 20px;
+}
+.card-body{
+    padding: 10px 15px;
+}
+.card-footer{
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer button{
+    margin: 0 5px;
+}
